@@ -6,6 +6,7 @@ import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -14,8 +15,8 @@ import java.util.Set;
 @NoArgsConstructor
 @Getter
 @ToString
-public class ClubMember extends BaseEntity{
 
+public class ClubMember extends BaseEntity {
 
     @Id
     private String email;
@@ -24,15 +25,25 @@ public class ClubMember extends BaseEntity{
 
     private String name;
 
-    private boolean fromSocial;// 소셜 계정 유무
+    private boolean fromSocial;
 
     @ElementCollection(fetch = FetchType.LAZY)
-    private Set<ClubMemberRole> roleSet; //한명의 멤버에게 여러 권한을 부여 가능하게 Set으로 처리( 중복은 제거하게)
-    //( 특수 케이스, 보통은 1명당 1개의 Role)
+    @Builder.Default
+    private Set<ClubMemberRole> roleSet = new HashSet<>();
 
     public void addMemberRole(ClubMemberRole clubMemberRole){
         roleSet.add(clubMemberRole);
-    } //권한 추가 메소드
+    }
 
+    /*
+    public void changePassword(String password){
+        this.password=password;
+    }
+
+    public void changeName(String name){
+        this.name=name;
+    }
+
+     */
 
 }
