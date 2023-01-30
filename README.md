@@ -4,8 +4,6 @@
 
 간단한 클럽 멤버 로그인 서비스를 통해 Spring Security를 통한 로그인 시스템 구성,  API 서버 구성과 JWT를 통한 API 인증에 대해 분석해보았다.
 
-
-
 # 목차
 
 MileStone1: Spring Security를 통한 사용자 인증, 로그인 처리
@@ -13,8 +11,6 @@ MileStone1: Spring Security를 통한 사용자 인증, 로그인 처리
 MileStone 2: Spring Security와 Google OAuth2.0을 이용한 소셜 로그인 처리
 
 MileStone 3: API 서버 구성과 Spring Security를 통한 보안, JWT를 통한 인증 처리.
-
-
 
 # MileStone 1
 
@@ -38,11 +34,6 @@ MileStone 3: API 서버 구성과 Spring Security를 통한 보안, JWT를 통�
 
 ![https://blog.kakaocdn.net/dn/TNdmx/btrWR73IT3n/mc2SpkSLykxPvFsP06dnQK/img.png](https://blog.kakaocdn.net/dn/TNdmx/btrWR73IT3n/mc2SpkSLykxPvFsP06dnQK/img.png)
 
-<<<<<<< HEAD:README c6022d99971d44e985767a55af8c0819.md
-=======
-
-
->>>>>>> ab0469b52f987286bc0391ad5577a686e9b705b5:README.md
 실제 사용되는 스프링 시큐리티의 주요 필터
 
 유저가 아이디, 비밀번호와 같은 인증에 관련한 정보를 입력하면, UsernamePasswordAuthenticationToken과 같은 토큰이라는 객체로 만들어서 AuthenticationManager(인증 매니저) 에게 전달한다.
@@ -51,22 +42,12 @@ MileStone 3: API 서버 구성과 Spring Security를 통한 보안, JWT를 통�
 
 ![https://blog.kakaocdn.net/dn/V5TAy/btrWU7IHegi/pE35cksFTj3P7CvaRZPLl1/img.png](https://blog.kakaocdn.net/dn/V5TAy/btrWU7IHegi/pE35cksFTj3P7CvaRZPLl1/img.png)
 
-<<<<<<< HEAD:README c6022d99971d44e985767a55af8c0819.md
-=======
-
-
->>>>>>> ab0469b52f987286bc0391ad5577a686e9b705b5:README.md
 아이디, 비밀번호를 받은 뒤, Token객체에 넣어서 인증 매니저에게 전달한다.
 
 **Authentication Manager: 인증 매니저**
 
 ![https://blog.kakaocdn.net/dn/uL5Nh/btrWRzsRJFV/X0swK5FH4lOm4WkArg68o1/img.png](https://blog.kakaocdn.net/dn/uL5Nh/btrWRzsRJFV/X0swK5FH4lOm4WkArg68o1/img.png)
 
-<<<<<<< HEAD:README c6022d99971d44e985767a55af8c0819.md
-=======
-
-
->>>>>>> ab0469b52f987286bc0391ad5577a686e9b705b5:README.md
 여러 객체가 서로 데이터를 주고 받으며 이루어진다.
 
 인증 매니저는 데이터베이스를 통한 인증, 메모리상 데이터를 통한 인증 등 다양한 처리 방법을 이용한다.
@@ -77,10 +58,6 @@ MileStone 3: API 서버 구성과 Spring Security를 통한 보안, JWT를 통�
 
 ![https://blog.kakaocdn.net/dn/qJ3vq/btrWWtrfzBA/zBH1UUG9C9RWiKNB3Ci750/img.png](https://blog.kakaocdn.net/dn/qJ3vq/btrWWtrfzBA/zBH1UUG9C9RWiKNB3Ci750/img.png)
 
-<<<<<<< HEAD:README c6022d99971d44e985767a55af8c0819.md
-=======
-
->>>>>>> ab0469b52f987286bc0391ad5577a686e9b705b5:README.md
 Authentication Provider이 처리가능한 하위 구현 클래스들
 
 Authentication Provider는 인증 매니저가 전달한 토큰 타입이 처리할 수 있는 타입인지 확인한 뒤, 이를 통해 authenticate() 메서드를 수행한다.
