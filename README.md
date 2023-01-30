@@ -34,7 +34,7 @@ MileStone 3: API 서버 구성과 Spring Security를 통한 보안, JWT를 통�
 
 ![https://blog.kakaocdn.net/dn/TNdmx/btrWR73IT3n/mc2SpkSLykxPvFsP06dnQK/img.png](https://blog.kakaocdn.net/dn/TNdmx/btrWR73IT3n/mc2SpkSLykxPvFsP06dnQK/img.png)
 
-https://blog.kakaocdn.net/dn/TNdmx/btrWR73IT3n/mc2SpkSLykxPvFsP06dnQK/img.png
+
 
 실제 사용되는 스프링 시큐리티의 주요 필터
 
@@ -44,7 +44,7 @@ https://blog.kakaocdn.net/dn/TNdmx/btrWR73IT3n/mc2SpkSLykxPvFsP06dnQK/img.png
 
 ![https://blog.kakaocdn.net/dn/V5TAy/btrWU7IHegi/pE35cksFTj3P7CvaRZPLl1/img.png](https://blog.kakaocdn.net/dn/V5TAy/btrWU7IHegi/pE35cksFTj3P7CvaRZPLl1/img.png)
 
-https://blog.kakaocdn.net/dn/V5TAy/btrWU7IHegi/pE35cksFTj3P7CvaRZPLl1/img.png
+
 
 아이디, 비밀번호를 받은 뒤, Token객체에 넣어서 인증 매니저에게 전달한다.
 
@@ -52,7 +52,7 @@ https://blog.kakaocdn.net/dn/V5TAy/btrWU7IHegi/pE35cksFTj3P7CvaRZPLl1/img.png
 
 ![https://blog.kakaocdn.net/dn/uL5Nh/btrWRzsRJFV/X0swK5FH4lOm4WkArg68o1/img.png](https://blog.kakaocdn.net/dn/uL5Nh/btrWRzsRJFV/X0swK5FH4lOm4WkArg68o1/img.png)
 
-https://blog.kakaocdn.net/dn/uL5Nh/btrWRzsRJFV/X0swK5FH4lOm4WkArg68o1/img.png
+
 
 여러 객체가 서로 데이터를 주고 받으며 이루어진다.
 
@@ -64,7 +64,6 @@ https://blog.kakaocdn.net/dn/uL5Nh/btrWRzsRJFV/X0swK5FH4lOm4WkArg68o1/img.png
 
 ![https://blog.kakaocdn.net/dn/qJ3vq/btrWWtrfzBA/zBH1UUG9C9RWiKNB3Ci750/img.png](https://blog.kakaocdn.net/dn/qJ3vq/btrWWtrfzBA/zBH1UUG9C9RWiKNB3Ci750/img.png)
 
-https://blog.kakaocdn.net/dn/qJ3vq/btrWWtrfzBA/zBH1UUG9C9RWiKNB3Ci750/img.png
 
 Authentication Provider이 처리가능한 하위 구현 클래스들
 
