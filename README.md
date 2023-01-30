@@ -4,6 +4,8 @@
 
 간단한 클럽 멤버 로그인 서비스를 통해 Spring Security를 통한 로그인 시스템 구성,  API 서버 구성과 JWT를 통한 API 인증에 대해 분석해보았다.
 
+
+
 # 목차
 
 MileStone1: Spring Security를 통한 사용자 인증, 로그인 처리
@@ -11,6 +13,8 @@ MileStone1: Spring Security를 통한 사용자 인증, 로그인 처리
 MileStone 2: Spring Security와 Google OAuth2.0을 이용한 소셜 로그인 처리
 
 MileStone 3: API 서버 구성과 Spring Security를 통한 보안, JWT를 통한 인증 처리.
+
+
 
 # MileStone 1
 
