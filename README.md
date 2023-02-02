@@ -3,7 +3,9 @@
 # ClubMember
 
 공통 요구사항인 인증, 인가 기능에 대한 개별적 API 서버
+
 보안: Spring Security, OAuth를 통한 보안
+
 인증, 인가: Spring Security의 Filter 영역에서 JWT 토큰을 통한 인증, 인가
 
 
